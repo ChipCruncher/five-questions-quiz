@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz Game</title>
+    <link rel="stylesheet" href="quiz-style.css"></link>
+    <script src="quiz-script.js"></script>
+</head>
+<body>
+    <div class="intro">
+    <h1>Welcome to the 5 Questions Quiz!</h1>
+    <p style="color: gold;">by Oleen Fernando</p>
+    <P style="font-size: 20px; padding: 5px;">How many can you get right?</P>
+    </div>
+    <button onclick="darkItUp()">Dark Mode?</button>
+    <br>
+    <h3>What is the commercial capital of Sri Lanka?</h3>
+    <div id="first">
+    <button onclick="wrongAns()" id="wrong">Kandy</button>
+    <button onclick="wrongAns2()" id="wrong2">Galle</button>
+    <button onclick="correctAns()" id="correct">Colombo</button>
+    <button onclick="wrongAns3()" id="wrong3">Nugegoda</button>
+    </div>
+    <br>
+    <h3>How many muscles are in the human body?</h3>
+    <div id="second">
+    <button onclick="wrongAns4()" id="wrong4">1000</button>
+    <button onclick="wrongAns5()" id="wrong5">400</button>
+    <button onclick="wrongAns6()" id="wrong6">800</button>
+    <button onclick="correctAns2()" id="correct2">600</button>
+    </div>  
+    <br>
+    <h3>Which planet has the most moons?</h3>
+    <div id="third">
+    <button onclick="correctAns3()" id="correct3">Jupiter</button>
+    <button onclick="wrongAns7()" id="wrong7">Saturn</button>
+    <button onclick="wrongAns8()" id="wrong8">Uranus</button>
+    <button onclick="wrongAns9()" id="wrong9">Neptune</button>
+    </div>
+    <br>
+    <h3>Who painted the ceiling of the Sistine Chapel?</h3>
+    <div id="fourth">
+    <button onclick="correctAns4()" id="correct4">Michelangelo</button>
+    <button onclick="wrongAns10()" id="wrong10">Leonardo Da Vinci</button>
+    <button onclick="wrongAns11()" id="wrong11">Donatello</button>
+    <button onclick="wrongAns12()" id="wrong12">Van Gogh</button>
+    </div>
+    <br>
+    <h3>What is the value of Pi to 5 decimal places?</h3>
+    <div id="fifth">
+    <button onclick="wrongAns13()" id="wrong13">3.14165</button>
+    <button onclick="wrongAns14()" id="wrong14">3.14162</button>
+    <button onclick="correctAns5()" id="correct5">3.14159</button>
+    <button onclick="wrongAns15()" id="wrong15">3.14157</button>
+    </div>
+    <br>
+    <div style="background-color: white; color: black; font-size: 30px;">Your Score:</div>
+    <div id="score">0</div>
+</body>
+</html>
