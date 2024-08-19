@@ -1,0 +1,54 @@
+.wrong {
+    background-color: red;
+    color: white;
+}
+
+.dark-mode {
+    background: black;
+    color: magenta;
+}
+
+.correct {
+    background-color: green;
+    color: white;
+}
+
+body {
+    text-align: center;
+    font-family: 'Franklin Gothic Medium';
+    font-weight: 100;
+    background: linear-gradient(rgb(123, 255, 255), rgb(252, 158, 255));
+    color: black;
+}
+
+.intro {
+    background: black;
+    color: white;
+    font-weight: 100;
+}
+
+img {
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    padding: 0px;
+    border: solid black;
+}
+
+button {
+    background-color: rgb(194, 194, 247);
+    color: black;
+    border: solid white;
+    border-radius: 20px;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+#score {
+    font-size: 40px;
+    background-color: white;
+    color: black;
+}
+
+
+
